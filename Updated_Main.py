@@ -267,7 +267,7 @@ print('|------------------------------------------------------------|')
 print(' Accuracy Percentage for test data by Random Forest model after Using Ranking for feature selection :: '+str(accuracy2)+'%')
 print('|------------------------------------------------------------|')
 print()
-classification_report(y_test,y_pred)
+print(classification_report(y_test, y_pred))
 plt.show()
 print("|---------------------------------------------------------------------------------------------------|")
 
